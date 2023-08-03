@@ -1,42 +1,11 @@
 import React from 'react'
 import { images } from '../layouts'
-import { FaTwitter, FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { SOCIAL } from '../utils/data'
 
 function Footers() {
-
-    const SOCIAL = [
-        {
-            id: 1,
-            link: "https://twitter.com/home",
-            icon: <FaTwitter />
-
-        },
-        {
-            id: 2,
-            link: "https://web.facebook.com/?_rdc=1&_rdr",
-            icon: <FaFacebook />
-
-        },
-        {
-            id: 3,
-            link: "https://www.linkedin.com/feed/",
-            icon: <FaLinkedin />
-
-        },
-        {
-            id: 4,
-            link: "https://www.linkedin.com/feed/",
-            icon: <FaInstagram />
-
-        },
-        
-    ];
-
-
     return (
         <>
         <div className=' bg-green-700'>
-            <div className='flex md:items-center  justify-evenly flex-col md:flex-row md:p-10 mt-56'>
                 <div>
                     <img src={images.logo} alt='logo' className='w-44 p-10 rounded-full' />
                 </div>
