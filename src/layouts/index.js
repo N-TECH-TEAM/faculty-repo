@@ -1,1 +1,1 @@
-export {default as Images} from './ImgCon'
+export { default as images } from './ImgCon'
