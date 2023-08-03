@@ -2,14 +2,10 @@ import React from 'react'
 import { images } from '../layouts'
 import { SOCIAL } from '../utils/data'
 
-
 function Footers() {
-
-
     return (
         <>
         <div className=' bg-green-700'>
-            <div className='flex md:items-center justify-evenly flex-col md:flex-row md:p-10 mt-56'>
                 <div>
                     <img src={images.logo} alt='logo' className='w-44 p-10 rounded-full' />
                 </div>
