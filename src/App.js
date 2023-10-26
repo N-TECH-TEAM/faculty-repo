@@ -2,27 +2,16 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import './App.css'
-
-// department
-
 import Electrical from '../src/Departments/Electrical'
 import Mechanical from '../src/Departments/Mechanical'
 import Chemical from '../src/Departments/Chemical'
 import Civil from '../src/Departments/Civil'
-
 import Footer from './layouts/Footer'
 import About from './components/About'
 import Contact from './components/Contact'
 import Services from './components/Services'
 import Home from './wrap/Home'
 import { ScrollToTop } from './wrap/ScrollToTop'
-
-
-// import ScrollToTop from 'react-scroll-to-top'
-
-
-
-
 
 function App() {
   return (
@@ -43,10 +32,8 @@ function App() {
         <Route path='/chem' element={<Chemical />} />
         <Route path='/civil' element={<Civil />} />
 
-
       </Routes>
       <Footer />
-{/* <ScrollToTop  style={{color: 'green'}}/> */}
 <ScrollToTop />
     </div>
   )

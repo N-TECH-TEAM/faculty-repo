@@ -18,7 +18,6 @@ import civil4 from '../Assest/civil4.png'
 import civil5 from '../Assest/civil5.png'
 
 
-
 export default{
 logo,
 nuesa,

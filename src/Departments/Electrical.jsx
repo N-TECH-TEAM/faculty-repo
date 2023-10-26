@@ -99,7 +99,5 @@ function Electrical() {
       </div>
 
     </>
-  )
-}
 
 export default Electrical
