@@ -1,6 +1,7 @@
 import React from 'react'
 import { images } from '../layouts'
 import { SOCIAL } from '../utils/data'
+import { Link } from 'react-router-dom'
 
 
 function Footers() {
@@ -35,14 +36,14 @@ function Footers() {
                     <div className='flex flex-col ml-20 md:ml-32 ' >
                         <h2 className='uppercase md:mt-3 text-white font-bold'>nuesa</h2>
                         <a href="/" className="text-white text-sm hover:text-gray-400">Home</a>
-                        <a href="/" className="text-white text-sm hover:text-gray-400">About</a>
+                        <Link to='/about' className='text-white text-sm hover:text-gray-400'>About</Link>
                         <a href="/" className="text-white text-sm hover:text-gray-400">Services</a>
                     </div>
 
 
                     <div className='flex flex-col ml-20 md:ml-32'>
                         <h2 className='uppercase text-white font-bold'>support</h2>
-                        <a href="/" className="text-white text-sm hover:text-gray-400">Contact</a>
+                       
                         <a href="/" className="text-white text-sm hover:text-gray-400">Download & Resourses</a>
                         <a href="/" className="text-white text-sm hover:text-gray-400">Entertainments</a>
 
