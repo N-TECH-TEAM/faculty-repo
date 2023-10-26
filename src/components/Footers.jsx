@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Footers() {
     return (
         <>
-        <div className=' bg-green-700'>
+            <div className=' bg-green-700'>
                 <div>
                     <img src={images.logo} alt='logo' className='w-44 p-10 rounded-full' />
                 </div>
@@ -39,7 +39,7 @@ function Footers() {
 
                     <div className='flex flex-col ml-20 md:ml-32'>
                         <h2 className='uppercase text-white font-bold'>support</h2>
-                       
+
                         <a href="/" className="text-white text-sm hover:text-gray-400">Download & Resourses</a>
                         <a href="/" className="text-white text-sm hover:text-gray-400">Entertainments</a>
 
@@ -48,9 +48,9 @@ function Footers() {
                 </div>
             </div>
             <div>
-            <p className='max-w_xl flex justify-center items-center font-light text-white'>© 2023 Aliyu Abdulrazak.com</p>
+                <p className='max-w_xl flex justify-center items-center font-light text-white'>© 2023 Aliyu Abdulrazak.com</p>
             </div>
-            </div>
+
         </>
     )
 }

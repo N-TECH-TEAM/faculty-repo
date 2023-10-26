@@ -24,12 +24,12 @@ function Electrical() {
           <br></br>
           <span> Dr. S. O. Oodo</span>
           <br></br>
-            HOD, Electrical Engineering
+          HOD, Electrical Engineering
         </p>
-       
 
 
-      
+
+
 
         <div className='bg-green-700 text-white p-3'>
           <h2 className='py-4 font-semibold'>BRIEF HISTORY OF THE PROGRAMME:</h2>
@@ -99,5 +99,7 @@ function Electrical() {
       </div>
 
     </>
+  )
+}
 
 export default Electrical
