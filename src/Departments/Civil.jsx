@@ -1,7 +1,7 @@
 import React from 'react'
 import { images } from '../layouts'
 
-function Electrical() {
+function Civil() {
   return (
     <>
       <div className='p-6' >
