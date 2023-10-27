@@ -1,8 +1,7 @@
 import React from 'react'
 import { images } from '../layouts'
 
-
-const Civil = () => {
+function Civil() {
   return (
     <>
     <div className='p-6' >
