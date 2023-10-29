@@ -49,7 +49,7 @@ function Footers() {
                 <div>
                 <p className='flex justify-center items-center font-light text-white'>© 2023 Aliyu Abdulrazak.com</p>
             </div>
-            </div>
+<<<<
         
 
         </>
