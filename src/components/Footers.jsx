@@ -46,10 +46,9 @@ function Footers() {
                     </div>
 
                 </div>
-            </div>
-            <div>
-
-                <p className='max-w_xl flex justify-center items-center font-light text-white'>© 2023 Aliyu Abdulrazak.com</p>
+                <div>
+                    <p className='flex justify-center items-center font-light text-white'>© 2023 Aliyu Abdulrazak.com</p>
+                </div>
             </div>
 
         </>

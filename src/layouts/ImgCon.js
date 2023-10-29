@@ -16,6 +16,12 @@ import civil2 from '../Assest/civil2.png'
 import civil3 from '../Assest/civil3.png'
 import civil4 from '../Assest/civil4.png'
 import civil5 from '../Assest/civil5.png'
+import chem1 from '../Assest/chem1.png'
+import chem2 from '../Assest/chem2.png'
+import chem3 from '../Assest/chem3.png'
+import chem4 from '../Assest/chem4.png'
+import chem5 from '../Assest/chem5.png'
+
 
 
 export default{
@@ -36,6 +42,12 @@ civil1,
 civil2,
 civil3,
 civil4,
-civil5
+civil5,
+chem1,
+chem2,
+chem3,
+chem4,
+chem5,
+
 
 };
