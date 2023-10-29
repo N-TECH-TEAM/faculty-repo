@@ -58,7 +58,7 @@ function Civil() {
             perform the following functions:
 
 
-            (a)  o design engineering projects and supervise their implementation
+            (a)To design engineering projects and supervise their implementation
             <br></br>
             (b)  To design and implement components, machines, equipment and systems.<br></br>
             (c) To design and develop new products and production techniques in industries<br></br>
