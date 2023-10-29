@@ -6,7 +6,7 @@ function Civil() {
     <>
       <div className='p-6' >
         <h2 className='p-2 text-center font-bold '>DEPARTMENT OF CIVIL ENGINEERING
-          <hr className='w-1/2 md:w-[20%] h-1 mb-6 mx-auto my-4 bg-orange-400 border-0 rounded-md  '></hr> </h2>
+          <hr className='w-1/2 md:w-[20%] h-1 mb-6 mx-auto my-4 bg-orange-400 border-0 rounded-md  '/> </h2>
 
         <h2 className='p-2 font-serif text-gray-800 font-normal'>WELCOME ADDRESS</h2>
         <p className='text-sm text-gray-800 py-3'>
@@ -70,14 +70,14 @@ function Civil() {
             able to take responsibility for the direction of important tasks.   <br></br>
             (g) To be able to manage people, fund, materials and equipment. . <br></br>
             (h)  To improve on indigenous technology to enhance local problems solving capability
-           <br></br>
+            <br></br>
             (i)  To be able to exercise original thought, have good professional judgment
             and be able to take responsibility for the direction of important tasks.
           </p>
         </div>
 
         <h2 className='py-4 font-semibold text-center '>COURSE STRUCTURE
-          <hr className='w-32 h-1 mb-6 mx-auto my-4 bg-orange-400 border-0 rounded-md md:my-10 '></hr>
+          <hr className='w-32 h-1 mb-6 mx-auto my-4 bg-orange-400 border-0 rounded-md md:my-10 '/>
         </h2>
 
       </div>
@@ -87,12 +87,12 @@ function Civil() {
         <img src={images.civil3} alt='civil' className='md:w-1/2' />
         <img src={images.civil4} alt='civil' className='md:w-1/2' />
         <img src={images.civil5} alt='civil' className='md:w-1/2' />
- 
+
       </div>
 
       <div>
         <h2 className='py-4 font-semibold text-center '>COURSE MATERIALS
-          <hr className='w-32 h-1 mb-6 mx-auto my-4 bg-orange-400 border-0 roundmech'></hr>
+          <hr className='w-32 h-1 mb-6 mx-auto my-4 bg-orange-400 border-0 roundmech'/>
         </h2>
       </div>
     </>
