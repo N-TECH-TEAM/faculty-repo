@@ -10,13 +10,6 @@ import { signOut } from 'firebase/auth'
 import { auth } from '../config/firebase'
 
 
-
-
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(' ')
-// }
-
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,17 +17,17 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const history = useNavigate()
+  const history = useNavigate();
 
   const handleClick = () => {
     signOut(auth).then(val => {
       console.log(val, "val")
       history('/')
-    })
+    });
   }
 
   return (
-    <nav className="bg-white">
+    <nav className="bg-gray-200 p-2">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
