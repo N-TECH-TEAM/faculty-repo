@@ -10,13 +10,6 @@ import { signOut } from 'firebase/auth'
 import { auth } from '../config/firebase'
 
 
-
-
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(' ')
-// }
-
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,13 +17,13 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const history = useNavigate()
+  const history = useNavigate();
 
   const handleClick = () => {
     signOut(auth).then(val => {
       console.log(val, "val")
       history('/')
-    })
+    });
   }
 
   return (
