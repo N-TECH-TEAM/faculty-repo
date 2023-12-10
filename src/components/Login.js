@@ -49,7 +49,7 @@ const Login = () => {
 
     return (
 
-        <div className='bg-green-600 h-screen '>
+        <div className='bg-green-600'>
             <div className='flex flex-col p-10 md:flex-row md:p-20 justify-center items-center'>
 
 
