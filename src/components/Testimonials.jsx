@@ -66,7 +66,7 @@ function Testimonials() {
                     return (
                         <SwiperSlide className='p-20 '>
                         <div key={id}>
-                            <p className='text-white text-center text-sm'>{Comments}</p>
+                            <p className='text-white text-center text-[0.8rem]'>{Comments}</p>
 
                             <h2 className='text-white p-5 font-bold'>{names}</h2>
                         </div>
