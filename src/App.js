@@ -1,9 +1,9 @@
 
 import React from 'react'
-import Login from './components/Login'
+// import Login from './components/Login'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Page from './nuesa/Page'
-import ForgetPassword from './components/ForgetPassword'
+// import ForgetPassword from './components/ForgetPassword'
 
 
 const App = () => {
@@ -11,9 +11,9 @@ const App = () => {
     <BrowserRouter>
     <div>
       <Routes>
-        <Route path='/' element={<Login />}/>
-        <Route path='/page/*' element={<Page />}/>
-        <Route path='/reset' element={<ForgetPassword />}/>
+        <Route path='/*' element={<Page />}/>
+        {/* <Route path='/page/*' element={<Page />}/> */}
+        {/* <Route path='/reset' element={<ForgetPassword />}/> */}
         
       </Routes>
     </div>

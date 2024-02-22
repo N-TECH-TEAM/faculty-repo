@@ -1,7 +1,8 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from '../components/Navbar'
-import '../App.css'
+import Header from '../layouts/Header'
+import Body from '../layouts/Body'
 import Electrical from '../Departments/Electrical'
 import Mechanical from '../Departments/Mechanical'
 import Chemical from '../Departments/Chemical'
@@ -14,31 +15,16 @@ import Home from '../wrap/Home'
 import { ScrollToTop } from '../wrap/ScrollToTop'
 import Gallery from '../Gallery/Gallery'
 import Blog from '../components/Blog/Blog'
-// import { useNavigate } from 'react-router-dom'
-// import { signOut } from 'firebase/auth'
-// import { auth } from '../config/firebase'
 
 
 function Page() {
-
-    // const history = useNavigate()
-
-    // const handleClick = () => {
-    //     signOut(auth).then(val => {
-    //         console.log(val, "val")
-    //         history('/')
-    //     })
-    // }
 
 
     return (
         <div className='w-screen h-screen'>
 
             <Navbar />
-            {/* <div>
-               
-                <button onClick={handleClick}>SignOut</button>
-            </div> */}
+    
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
@@ -55,6 +41,8 @@ function Page() {
                 <Route path='/civil' element={<Civil />} />
 
             </Routes>
+           <Header />
+           <Body />
             <Footer />
             <ScrollToTop />
         </div>

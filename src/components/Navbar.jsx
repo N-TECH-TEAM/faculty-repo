@@ -6,8 +6,8 @@ import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { useNavigate } from 'react-router-dom'
-import { signOut } from 'firebase/auth'
-import { auth } from '../config/firebase'
+// import { signOut } from 'firebase/auth'
+// import { auth } from '../config/firebase'
 
 
 const Navbar = () => {
@@ -19,12 +19,6 @@ const Navbar = () => {
 
   const history = useNavigate();
 
-  const handleClick = () => {
-    signOut(auth).then(val => {
-      console.log(val, "val")
-      history('/')
-    });
-  }
 
   return (
     <nav className="bg-gray-200 p-2">
@@ -43,9 +37,9 @@ const Navbar = () => {
               <Link to="contact" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Contact</Link>
               <Link to="Gallery" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Gallery</Link>
               <Link to="Blog" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Blog</Link>
-              <div>
+              {/* <div>
                 <button onClick={handleClick} className=' underline font-bold hover:text-orange-400' >SignOut</button>
-              </div>
+              </div> */}
 
               <Menu as="div" className=" md:relative inline-block text-left ">
 
@@ -229,10 +223,10 @@ const Navbar = () => {
               </Transition>
             </div>
           </Menu>
-          <div>
+          {/* <div>
 
             <button onClick={handleClick} className='text-white underline font-bold hover:text-orange-400' >SignOut</button>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>

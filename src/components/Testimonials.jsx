@@ -50,7 +50,7 @@ function Testimonials() {
     ];
 
     return (
-        <div className='bg-green-700 justify-center items-center text-center'>
+        <div className='bg-green-700 justify-center items-center text-center mt-10'>
             <h2 className='text-white text-xl py-5'>Testimonials
                 <hr className='w-48 h-1 mb-6 mx-auto my-4 bg-orange-400 border-0 rounded-md md:my-10' />
             </h2>
