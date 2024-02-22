@@ -1,5 +1,6 @@
 import React from 'react'
 import { images } from '../layouts'
+import ElectpdfFiles from '../components/pdf/ElectPDFfiles'
 
 function Electrical() {
   return (
@@ -94,7 +95,9 @@ function Electrical() {
 
       <div>
         <h2 className='py-4 font-semibold text-center '>COURSE MATERIALS
-          <hr className='w-32 h-1 mb-6 mx-auto my-4 bg-orange-400 border-0 rounded-md  '></hr>
+       
+            <ElectpdfFiles/>
+          
         </h2>
       </div>
 

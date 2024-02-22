@@ -1,6 +1,7 @@
 import React from 'react'
 import { images } from '../layouts'
 
+
 function Chemical() {
   return (
     <>
@@ -9,6 +10,7 @@ function Chemical() {
           <hr className='w-1/2 md:w-[20%] h-1 mb-6 mx-auto my-4 bg-orange-400 border-0 rounded-md  '></hr> </h2>
 
         <h2 className='p-2 font-serif text-gray-800 font-normal'>WELCOME ADDRESS</h2>
+        
         <p className='text-sm text-gray-800 py-3'>
           This section was provided by the department of chemical engineering to provide every bit of
           information concerning courses registration for each Semester of an Academic Session as well as
@@ -96,7 +98,9 @@ function Chemical() {
 
       <div>
         <h2 className='py-4 font-semibold text-center '>COURSE MATERIALS
-          <hr className='w-32 h-1 mb-6 mx-auto my-4 bg-orange-400 border-0 roundmech'></hr>
+          <hr className='w-32 h-1 mb-6 mx-auto my-4 bg-orange-400 border-0 roundmech'>
+            
+          </hr>
         </h2>
       </div>
     </>

@@ -30,6 +30,13 @@ export const mission = [
     text: 'To foster the development of team spirit and team work to move the University forward. Through constructive engagement, to stimulate every facet of the University through building relationship with all the unions including the Students Union. Will improve the relationship between the University and the contiguous communities by using them largely as experimental points to demonstrate our innovations; develop beneficial relationship, with the industry and the office of the Alumni Relations, to ensure that they participate in the government and project in the University. '
 
   }
+  ,
+  {
+    id: 6,
+    title: 'Innovation and Technology Advancement',
+    text: 'This mission underscores the universitys dedication to embracing emerging technologies, promoting research and development initiatives, and encouraging a culture of innovation among its faculty, students, and stakeholders. Through strategic partnerships, interdisciplinary collaborations, and a forward-thinking approach, the university aims to leverage technology to address contemporary challenges, drive societal progress, and shape the future landscape of education, industry, and society as a whole. '
+
+  }
 ];
 
 export const management = [

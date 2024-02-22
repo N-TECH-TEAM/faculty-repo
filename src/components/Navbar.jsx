@@ -39,7 +39,7 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-4">
               <Link to="/page" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Home</Link>
               <Link to="about" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">About</Link>
-              <Link to="services" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Services</Link>
+              <Link to="gallery" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Gallery</Link>
               <Link to="contact" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Contact</Link>
 
               <div>
@@ -142,7 +142,7 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-green-700  mt-5">
           <Link to="/page" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Home</Link>
           <Link to="about" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">About</Link>
-          <Link to="services" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Services</Link>
+          <Link to="Gallery" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Gallery</Link>
           <Link to="contact" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Contact</Link>
           <Menu as="div" className=" md:relative inline-block text-left ">
 

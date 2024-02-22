@@ -9,7 +9,7 @@ import Civil from '../Departments/Civil'
 import Footer from '../layouts/Footer'
 import About from '../components/About'
 import Contact from '../components/Contact'
-import Services from '../components/Services'
+import Gallery from '../components/Gallery'
 import Home from '../wrap/Home'
 import { ScrollToTop } from '../wrap/ScrollToTop'
 // import { useNavigate } from 'react-router-dom'
@@ -42,7 +42,7 @@ function Page() {
                 <Route path='/about' element={<About />} />
 
                 <Route path='/contact' element={<Contact />} />
-                <Route path='/services' element={<Services />} />
+                <Route path='/gallery' element={<Gallery />} />
 
                 {/* departments */}
 

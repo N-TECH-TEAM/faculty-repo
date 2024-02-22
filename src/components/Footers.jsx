@@ -33,7 +33,7 @@ function Footers() {
                         <h2 className='uppercase md:mt-3 text-orange-400 font-bold'>nuesa</h2>
                         <a href="/" className="text-white text-sm hover:text-gray-400">Home</a>
                         <Link to='/about' className='text-white text-sm hover:text-gray-400'>About</Link>
-                        <a href="/" className="text-white text-sm hover:text-gray-400">Services</a>
+                        <a href="/" className="text-white text-sm hover:text-gray-400">Gallery</a>
                     </div>
 
 
@@ -46,7 +46,7 @@ function Footers() {
 
                 </div>
                 <div>
-                    <p className='flex justify-center items-center text-[0.7rem] font-light text-white'>© 2023 Aliyu Abdulrazak.com</p>
+                    <p className='flex justify-center items-center text-[0.7rem] font-light text-white'>© NUESA 2024</p>
                 </div>
             </div>
 
