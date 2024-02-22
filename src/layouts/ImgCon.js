@@ -21,6 +21,10 @@ import chem2 from '../Assest/chem2.png'
 import chem3 from '../Assest/chem3.png'
 import chem4 from '../Assest/chem4.png'
 import chem5 from '../Assest/chem5.png'
+import ecover from '../Assest/ecover.jpg'
+import mcover from '../Assest/mcover.jpg'
+import ccover from '../Assest/ccover.jpg'
+import chcover from '../Assest/chcover.jpg'
 
 
 
@@ -48,6 +52,9 @@ chem2,
 chem3,
 chem4,
 chem5,
-
+ecover,
+mcover,
+ccover,
+chcover
 
 };

@@ -33,7 +33,7 @@ function Footers() {
                         <h2 className='uppercase md:mt-3 text-orange-400 font-bold'>nuesa</h2>
                         <a href="/" className="text-white text-sm hover:text-gray-400">Home</a>
                         <Link to='/about' className='text-white text-sm hover:text-gray-400'>About</Link>
-                        <a href="/" className="text-white text-sm hover:text-gray-400">Gallery</a>
+                        <a href="/" className="text-white text-sm hover:text-gray-400">Leadership</a>
                     </div>
 
 

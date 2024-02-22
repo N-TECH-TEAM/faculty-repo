@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import PropTypes from 'prop-types';
 import { saveAs } from 'file-saver';
 
-const PDFCard = ({ name, size, pdfImage, pdfFile, level }) => {
+const PDFCard = ({ name, title, pdfImage, pdfFile, level }) => {
   const [showConfirmation, setShowConfirmation] = useState(false);
 
   const handleDownload = () => {
@@ -20,11 +20,11 @@ const PDFCard = ({ name, size, pdfImage, pdfFile, level }) => {
   };
 
   return (
-    <div className="max-w-xs rounded overflow-hidden shadow-lg m-4">
+    <div className="max-w-xs rounded overflow-hidden shadow-lg m-0">
       <img className="w-full" src={pdfImage} alt="PDF Thumbnail" />
-      <div className="px-4 py-2">
+      <div className="px-2 py-4">
         <div className="font-bold text-lg mb-1">{name}</div>
-        <p className="text-gray-700 text-sm mb-2">Size: {size}</p>
+        <p className="text-gray-700 text-sm mb-2"> {title}</p>
         <p className="text-gray-700 text-sm mb-2">Level: {level}</p>
         <div className="flex justify-center mt-2">
           <button
@@ -58,7 +58,7 @@ const PDFCard = ({ name, size, pdfImage, pdfFile, level }) => {
 
 PDFCard.propTypes = {
   name: PropTypes.string.isRequired,
-  size: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
   pdfImage: PropTypes.string.isRequired,
   pdfFile: PropTypes.object.isRequired,
   level: PropTypes.string.isRequired,

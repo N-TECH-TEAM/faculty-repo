@@ -39,9 +39,10 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-4">
               <Link to="/page" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Home</Link>
               <Link to="about" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">About</Link>
-              <Link to="gallery" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Gallery</Link>
+              <Link to="leadership" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Leadership</Link>
               <Link to="contact" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Contact</Link>
-
+              <Link to="Gallery" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Gallery</Link>
+              <Link to="payments" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Payments</Link>
               <div>
                 <button onClick={handleClick} className=' underline font-bold hover:text-orange-400' >SignOut</button>
               </div>
@@ -66,6 +67,32 @@ const Navbar = () => {
                   >
                     <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-gray-200 shadow-lg ring-1 ring-orange-400 ring-opacity-5 focus:outline-none">
                       <div className="py-1">
+                      <Menu.Item>
+                          {({ active }) => (
+                            <Link
+                              to="civil"
+                              className={(
+                                active ? 'bg-blue-500 text-gray-900' : 'text-gray-700',
+                                'block px-4 py-2 text-sm  hover:text-orange-400'
+                              )}
+                            >
+                              Civil
+                            </Link>
+                          )}
+                        </Menu.Item>
+                        <Menu.Item>
+                          {({ active }) => (
+                            <Link
+                              to="chem"
+                              className={(
+                                active ? 'bg-blue-500 text-gray-900' : 'text-gray-700',
+                                'block px-4 py-2 text-sm  hover:text-orange-400'
+                              )}
+                            >
+                              Chemical
+                            </Link>
+                          )}
+                        </Menu.Item>
                         <Menu.Item>
                           {({ active }) => (
                             <Link
@@ -92,33 +119,6 @@ const Navbar = () => {
                             </Link>
                           )}
                         </Menu.Item>
-                        <Menu.Item>
-                          {({ active }) => (
-                            <Link
-                              to="civil"
-                              className={(
-                                active ? 'bg-blue-500 text-gray-900' : 'text-gray-700',
-                                'block px-4 py-2 text-sm  hover:text-orange-400'
-                              )}
-                            >
-                              Civil
-                            </Link>
-                          )}
-                        </Menu.Item>
-
-                        <Menu.Item>
-                          {({ active }) => (
-                            <Link
-                              to="chem"
-                              className={(
-                                active ? 'bg-blue-500 text-gray-900' : 'text-gray-700',
-                                'block px-4 py-2 text-sm  hover:text-orange-400'
-                              )}
-                            >
-                              Chemical
-                            </Link>
-                          )}
-                        </Menu.Item>
 
                       </div>
                     </Menu.Items>
@@ -142,8 +142,13 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-green-700  mt-5">
           <Link to="/page" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Home</Link>
           <Link to="about" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">About</Link>
-          <Link to="Gallery" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Gallery</Link>
           <Link to="contact" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Contact</Link>
+          <Link to="Leadership" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Leadership-Team</Link>
+          <Link to="gallery" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Gallery</Link>
+          <Link to="payments" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Payments</Link>
+         
+         
+         
           <Menu as="div" className=" md:relative inline-block text-left ">
 
             <div className=''>
@@ -164,33 +169,7 @@ const Navbar = () => {
               >
                 <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-gray-200 shadow-lg ring-1 ring-orange-400 ring-opacity-5 focus:outline-none">
                   <div className="py-1">
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link
-                          to="elect"
-                          className={(
-                            active ? 'bg-blue-500 text-gray-900' : 'text-gray-700',
-                            'block px-4 py-2 text-sm'
-                          )}
-                        >
-                          Electrical
-                        </Link>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link
-                          to="mech"
-                          className={(
-                            active ? 'bg-blue-500 text-gray-900' : 'text-gray-700',
-                            'block px-4 py-2 text-sm'
-                          )}
-                        >
-                          Mechanical
-                        </Link>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
+                  <Menu.Item>
                       {({ active }) => (
                         <Link
                           to="civil"
@@ -217,6 +196,33 @@ const Navbar = () => {
                         </Link>
                       )}
                     </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <Link
+                          to="elect"
+                          className={(
+                            active ? 'bg-blue-500 text-gray-900' : 'text-gray-700',
+                            'block px-4 py-2 text-sm'
+                          )}
+                        >
+                          Electrical
+                        </Link>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <Link
+                          to="mech"
+                          className={(
+                            active ? 'bg-blue-500 text-gray-900' : 'text-gray-700',
+                            'block px-4 py-2 text-sm'
+                          )}
+                        >
+                          Mechanical
+                        </Link>
+                      )}
+                    </Menu.Item>
+
 
                   </div>
                 </Menu.Items>

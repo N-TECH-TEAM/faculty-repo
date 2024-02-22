@@ -9,9 +9,11 @@ import Civil from '../Departments/Civil'
 import Footer from '../layouts/Footer'
 import About from '../components/About'
 import Contact from '../components/Contact'
-import Gallery from '../components/Gallery'
+import Leadership from '../components/Leadership'
 import Home from '../wrap/Home'
 import { ScrollToTop } from '../wrap/ScrollToTop'
+import Gallery from '../Gallery/Gallery'
+import Payments from '../components/Payments/Payments'
 // import { useNavigate } from 'react-router-dom'
 // import { signOut } from 'firebase/auth'
 // import { auth } from '../config/firebase'
@@ -40,9 +42,10 @@ function Page() {
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
-
+                <Route path='/gallery' element={<Gallery/>} />
                 <Route path='/contact' element={<Contact />} />
-                <Route path='/gallery' element={<Gallery />} />
+                <Route path='/Leadership' element={<Leadership />} />
+                <Route path='/payments' element={<Payments/>} />
 
                 {/* departments */}
 
