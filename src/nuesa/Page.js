@@ -1,8 +1,8 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from '../components/Navbar'
-import Header from '../layouts/Header'
-import Body from '../layouts/Body'
+// import Header from '../layouts/Header'
+// import Body from '../layouts/Body'
 import Electrical from '../Departments/Electrical'
 import Mechanical from '../Departments/Mechanical'
 import Chemical from '../Departments/Chemical'
@@ -26,7 +26,7 @@ function Page() {
             <Navbar />
     
             <Routes>
-                <Route path='/'/>
+                {/* <Route path='/' element={<Home />}/> */}
                 <Route path='/about' element={<About />} />
                 <Route path='/gallery' element={<Gallery/>} />
                 <Route path='/contact' element={<Contact />} />
@@ -41,8 +41,8 @@ function Page() {
                 <Route path='/civil' element={<Civil />} />
 
             </Routes>
-           <Header />
-           <Body />
+           {/* <Header />
+           <Body /> */}
             <Footer />
             <ScrollToTop />
         </div>
