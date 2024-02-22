@@ -42,7 +42,7 @@ const Navbar = () => {
               <Link to="leadership" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Leadership</Link>
               <Link to="contact" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Contact</Link>
               <Link to="Gallery" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Gallery</Link>
-              <Link to="payments" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Payments</Link>
+              <Link to="Blog" className="text-gray-500 hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">Blog</Link>
               <div>
                 <button onClick={handleClick} className=' underline font-bold hover:text-orange-400' >SignOut</button>
               </div>
@@ -145,7 +145,7 @@ const Navbar = () => {
           <Link to="contact" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Contact</Link>
           <Link to="Leadership" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Leadership-Team</Link>
           <Link to="gallery" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Gallery</Link>
-          <Link to="payments" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Payments</Link>
+          <Link to="Blog" className="text-white hover:text-gray-400 block px-3 py-2 border-b border-orange-400 rounded-md text-base font-medium">Blog</Link>
          
          
          

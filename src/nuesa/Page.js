@@ -13,7 +13,7 @@ import Leadership from '../components/Leadership'
 import Home from '../wrap/Home'
 import { ScrollToTop } from '../wrap/ScrollToTop'
 import Gallery from '../Gallery/Gallery'
-import Payments from '../components/Payments/Payments'
+import Blog from '../components/Blog/Blog'
 // import { useNavigate } from 'react-router-dom'
 // import { signOut } from 'firebase/auth'
 // import { auth } from '../config/firebase'
@@ -45,7 +45,7 @@ function Page() {
                 <Route path='/gallery' element={<Gallery/>} />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/Leadership' element={<Leadership />} />
-                <Route path='/payments' element={<Payments/>} />
+                <Route path='/Blog' element={<Blog/>} />
 
                 {/* departments */}
 
