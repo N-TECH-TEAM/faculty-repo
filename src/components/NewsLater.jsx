@@ -30,7 +30,7 @@ const NewsLater = () => {
             <h3 className='text-gray-700 text-sm'>Enter your email adress and get our newsletters staright away</h3>
 
             <form ref={form} onSubmit={sendEmail}>
-                <div className='flex justify-center items-center p-5 gap-3'>
+                <div className='flex justify-center items-center p-5 gap-2 md:gap-3'>
 
                     <div>
                         <input type='email'  name='user_email' placeholder='Email' className='border-2 p-2 border-gray-700 rounded-md px-4' />

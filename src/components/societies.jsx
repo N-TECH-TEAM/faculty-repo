@@ -13,7 +13,7 @@ function societies() {
             <div className='flex justify-center items-center p-6 space-y-5 md:gap-5 flex-col md:flex-row '>
 
                 <div>
-                    <img src={images.nse} alt='' className='w-48 h-36 rounded-sm' />
+                    <img src={images.nse} alt='' className='w-52 h-36 rounded-sm' />
                 </div>
 
                 <div>

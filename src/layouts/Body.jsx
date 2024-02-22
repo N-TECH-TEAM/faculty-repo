@@ -10,8 +10,8 @@ function Body() {
 
     <History />
     <Societies />
-    <NewsLater />
     <Testimonials />
+    <NewsLater />
     </div>
   )
 }

@@ -4,9 +4,9 @@ import Footers from '../components/Footers'
 
 function Footer() {
   return (
-    <div className='w-screen h-auto'>
+    <div className='pt-20'>
 
-<Footers />
+      <Footers />
 
     </div>
   )

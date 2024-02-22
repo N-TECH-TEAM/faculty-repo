@@ -1,41 +1,51 @@
+
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import './App.css'
-import Electrical from '../src/Departments/Electrical'
-import Mechanical from '../src/Departments/Mechanical'
-import Chemical from '../src/Departments/Chemical'
-import Civil from '../src/Departments/Civil'
-import Footer from './layouts/Footer'
-import About from './components/About'
-import Contact from './components/Contact'
-import Services from './components/Services'
+// import Login from './components/Login'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Page from './nuesa/Page'
 import Home from './wrap/Home'
-import { ScrollToTop } from './wrap/ScrollToTop'
+import Footer from './layouts/Footer'
+import Navbar from './components/Navbar'
+import About from './components/About'
+import Gallery from './Gallery/Gallery'
+import Contact from './components/Contact'
+import Leadership from './components/Leadership'
+import Blog from './components/Blog/Blog'
+import Electrical from './Departments/Electrical'
+import Mechanical from './Departments/Mechanical'
+import Chemical from './Departments/Chemical'
+import Civil from './Departments/Civil'
+// import ForgetPassword from './components/ForgetPassword'
 
-function App() {
+
+const App = () => {
   return (
-    <div className='w-screen h-full'>
+    <BrowserRouter>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path='/*' element={<Home />} />
+          {/* <Route path='/page/*' element={<Page />}/> */}
+          {/* <Route path='/reset' element={<ForgetPassword />}/> */}
+          {/* <Route path='/' element={<Home />}/> */}
+          <Route path='/about' element={<About />} />
+          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/Leadership' element={<Leadership />} />
+          <Route path='/Blog' element={<Blog />} />
 
-      <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-      
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/services' element={<Services />} />
+          {/* departments */}
 
-        {/* departments */}
-         
-        <Route path='/elect' element={<Electrical />} />
-        <Route path='/mech' element={<Mechanical />} />
-        <Route path='/chem' element={<Chemical />} />
-        <Route path='/civil' element={<Civil />} />
+          <Route path='/elect' element={<Electrical />} />
+          <Route path='/mech' element={<Mechanical />} />
+          <Route path='/chem' element={<Chemical />} />
+          <Route path='/civil' element={<Civil />} />
 
-      </Routes>
-      <Footer />
-<ScrollToTop />
-    </div>
+
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   )
 }
 
